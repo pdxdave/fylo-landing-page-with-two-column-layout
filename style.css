@@ -40,6 +40,9 @@ p, input {
     display: block;
     padding: .8em 0;
 }
+.btn:hover {
+    cursor: pointer;
+}
 ::placeholder {
     color: var(--clr-desaturated-blue);
 }
