@@ -55,15 +55,6 @@ input:focus {
 }
 
 
-/* main {
-    width: 375px;
-    max-width: 100%;
-    margin: 0 auto;
-
-    padding: 0 1em;
-} */
-
-
 /********** NAV *************/
 
 nav {
@@ -146,6 +137,7 @@ nav {
     }
     .secure > img {
         padding-top: 5em;
+        min-width: 50%; /****/
         flex: 1;
         order: 1;
     }
@@ -285,6 +277,7 @@ nav {
     .productive__wrapper > img {
         flex: .8;
         order: 1;
+        min-width: 50%; /****/
     }
     .quote__container {
         align-items: flex-start;
